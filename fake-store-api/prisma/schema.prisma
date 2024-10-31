@@ -1,0 +1,23 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id       Int    @id @default(autoincrement()) // Define o campo id como chave primária e autoincrementável
+  title    String // Campo para o título do produto
+  price    Float // Campo para o valor do produto
+  category String // Campo para a categoria do produto
+
+  @@map("products") // Mapeia o modelo para a tabela "products" no banco de dados
+}
