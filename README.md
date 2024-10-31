@@ -2,6 +2,9 @@
 
 Esta API foi desenvolvida durante o mini-curso oferecido pelo IFSP campus Catanduva, realizado em 30 de Outubro de 2024. O foco do curso foi ensinar os fundamentos do desenvolvimento de APIs RESTful utilizando tecnologias modernas.
 
+##Ministrado por
+Lucas Matheus (github acc: lucasmgsilva)
+
 ## Tecnologias Utilizadas
 
 - **Node.js**: Ambiente de execução para JavaScript no lado do servidor.
