@@ -1,6 +1,6 @@
 # API RESTful - Mini-Curso IFSP Catanduva
 
-Esta API foi desenvolvida durante o mini-curso oferecido pelo IFSP campus Catanduva, realizado em 30 de Outubro. O foco do curso foi ensinar os fundamentos do desenvolvimento de APIs RESTful utilizando tecnologias modernas.
+Esta API foi desenvolvida durante o mini-curso oferecido pelo IFSP campus Catanduva, realizado em 30 de Outubro de 2024. O foco do curso foi ensinar os fundamentos do desenvolvimento de APIs RESTful utilizando tecnologias modernas.
 
 ## Tecnologias Utilizadas
 
